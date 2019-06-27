@@ -1,5 +1,5 @@
 <form action="/recipe/<%=@recipe.id%>" method="post">
-  <input type="name" method="_name" value="patch">
+  <input type="name" name="_method" value="patch">
   Name: <input type="text" name="name" value="<%=@recipe.name%>">
   Ingredients: <input type="text" name="ingredients" value="<%=@recipe.ingredients%>">
   Cook Time: <input type="text" name="cook_time" value="<%=@recipe.cook_time%>">
